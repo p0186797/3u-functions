@@ -42,3 +42,42 @@ A positive integer that represents the decimal number **n** written in base **b*
 >>> dec_to_base(382, 8)
 576
 ```
+
+---------
+
+## Exercise 2
+
+Create a new file in this repo called **fractions.py**. Within it, create 2 functions: **gcd(a, b)** and **reduce_fraction(a, b)**.
+
+### Input Specification for gcd
+
+The function takes 2 positive integers greater than or equal to 1: **a** and **b**.
+
+### Output Specification for gcd
+
+A positive integer that represents the greatest common divisor of **a** and **b**.
+
+**Sample Calls**
+```
+>>> gcd(16, 18)
+2
+    
+>>> gcd(24, 36)
+12
+```
+
+### Input Specification for reduce_fraction
+
+The function takes 2 positive integers greater than or equal to 1: **a** and **b**.
+
+### Output Specification for reduce_fraction
+
+A tuple of positive integers that represent the fraction a/b reduced.
+
+**Sample Calls**
+```
+>>> dec_to_base(5, 2)
+101
+>>> dec_to_base(382, 8)
+576
+```
