@@ -60,24 +60,23 @@ A positive integer that represents the greatest common divisor of **a** and **b*
 **Sample Calls**
 ```
 >>> gcd(16, 18)
-2
-    
+2  
 >>> gcd(24, 36)
 12
 ```
 
 ### Input Specification for reduce_fraction
 
-The function takes 2 positive integers greater than or equal to 1: **a** and **b**.
+The function takes 2 positive integers greater than or equal to 1: **a** and **b**. They represent the numerator and denominator of a fraction.
 
 ### Output Specification for reduce_fraction
 
-A tuple of positive integers that represent the fraction a/b reduced.
+A tuple of 2 positive integers that represent numerator and denominator of the fraction a/b reduced.
 
 **Sample Calls**
 ```
->>> dec_to_base(5, 2)
-101
->>> dec_to_base(382, 8)
-576
+>>> reduce_fraction(10, 12)
+(5, 6)
+>>> reduce_fraction(16, 8)
+(2, 1)
 ```
