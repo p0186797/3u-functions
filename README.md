@@ -22,8 +22,7 @@ A positive integer that represents the base **b** number **n** written as a deci
 **Sample Calls**
 ```
 >>> base_to_dec(101, 2)
-5
-    
+5 
 >>> base_to_dec(576, 8)
 382
 ```
